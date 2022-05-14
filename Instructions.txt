@@ -1,0 +1,34 @@
+CSS Selector
+1. ID Selector    				#
+2. Class Selector 				.
+3. Attribute Selector  [name="value"]
+4. Psudo Class Selector :
+5. Element Selector    elementName
+6. Grouping Selector   ,
+7. Combinator/Relation Selector
+		1. Child Relation
+		2. Parent Parent
+				<div id="a">
+						<div id="b"></div>
+				</div>					
+
+		3. Sibling 
+				<div id="a"></div>
+				<div id="b"></div>
+
+		7.1 Child Selector     Parent >Child
+				Parent > Child{
+				}
+
+			
+
+Ancestors   Child --> Parent
+Desendants  Parent ---> CHild
+
+ CSS Universal Selector
+
+div,p{
+}
+
+Parent > Child
+

@@ -1,0 +1,9 @@
+/*
+    selector {
+        property:value;
+    }
+*/
+
+div#a > div#b > div#c {
+    border:1px solid red;
+}
